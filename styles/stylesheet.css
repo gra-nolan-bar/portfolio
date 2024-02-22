@@ -1,0 +1,70 @@
+h1 {
+  color: aqua;
+  text-shadow: 1px 1px 1px black;
+  width: 670px;
+  margin: auto;
+  display: inline-flex;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 2px;
+  justify-content: center;
+}
+
+ul {
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: aqua;
+  width: 630px;
+  display: inline-flex;
+}
+
+li {
+  margin: auto;
+}
+
+.top-nav-link:hover {
+  color: aqua;
+  text-shadow: 1px 1px 1px black;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.profile-image {
+  border-style: inset;
+  border-radius: 15px;
+  border-color: aqua;
+  box-shadow: 10px 10px 10px grey;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 300px;
+}
+
+img {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-style: dotted;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+aside {
+  font-size: small;
+  font-style: italic;
+}
+
+h2 {
+  color: aqua;
+  text-shadow: 1px 1px 1px black;
+  ;
+}
+
+h3 {
+  font-style: italic;
+}
+
