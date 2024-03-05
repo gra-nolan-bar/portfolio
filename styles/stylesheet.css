@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
 h1 {
   color: aqua;
-  text-shadow: 1px 1px 1px black;
-  width: 670px;
+  text-shadow: 2px 2px 3px black;
+  min-width: 600px;
+  padding: 1rem 1rem 1rem 1rem;
   margin: auto;
-  display: inline-flex;
+  display: flex;
+  flex-flow: row nowrap;
   border-style: solid;
   border-radius: 15px;
   border-width: 2px;
   justify-content: center;
+}
+
+.fa-frog {
+  margin-left: 20px;
+}
+
+.fa-fish-fins {
+  margin-left: 20px;
 }
 
 ul {
@@ -16,21 +28,31 @@ ul {
   border-radius: 15px;
   border-width: 1px;
   border-color: aqua;
-  width: 630px;
-  display: inline-flex;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  min-height: 50px;
 }
 
 li {
   margin: auto;
+  list-style: none;
 }
 
 .top-nav-link:hover {
   color: aqua;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 3px black;
 }
 
 a:visited {
   color: inherit;
+}
+
+.profile-image-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-image {
@@ -38,9 +60,10 @@ a:visited {
   border-radius: 15px;
   border-color: aqua;
   box-shadow: 10px 10px 10px grey;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px 0 10px;
   height: 300px;
+  justify-content: center;
+  
 }
 
 img {
@@ -51,6 +74,7 @@ img {
   border-style: dotted;
   border-radius: 10px;
   background-color: aqua;
+  padding: 2px;
 }
 
 aside {
@@ -61,7 +85,12 @@ aside {
 h2 {
   color: aqua;
   text-shadow: 1px 1px 1px black;
-  ;
+}
+
+.project-heading {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 h3 {
@@ -70,23 +99,28 @@ h3 {
 
 .projects-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: row wrap;
-  background-color: yellow;
-  margin: 10px;
+  padding: 10px;
 }
 
 .project-item {
   height: 250px;
   min-width: 250px;
+  max-width: 300px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  background-color: red;
   margin: 10px;
   padding: 1rem 1rem 1rem 1rem;
   text-align: center;
   text-wrap: wrap;
   flex-grow: 1;
   flex-basis: 0;
+  flex-shrink: 1;
+  border-style: inset;
+  border-radius: 15px;
+  border-color: aqua;
+  box-shadow: 10px 10px 10px grey;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
