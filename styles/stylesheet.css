@@ -39,9 +39,17 @@ li {
   list-style: none;
 }
 
+.top-nav-link {
+  transition: all .5s .1s ease-in-out;
+}
+
 .top-nav-link:hover {
   color: aqua;
   text-shadow: 2px 2px 3px black;
+}
+
+a {
+  color: black;
 }
 
 a:visited {
@@ -63,7 +71,6 @@ a:visited {
   margin: 0 10px 0 10px;
   height: 300px;
   justify-content: center;
-  
 }
 
 img {
@@ -75,6 +82,11 @@ img {
   border-radius: 10px;
   background-color: aqua;
   padding: 2px;
+  transition: transform .6s .2s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(-360deg);
 }
 
 aside {
@@ -122,5 +134,14 @@ h3 {
   border-radius: 15px;
   border-color: aqua;
   box-shadow: 10px 10px 10px grey;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  
+}
+
+.project-item:nth-of-type(2n-1) {
+  background-color: aqua;
+}
+
+.project-item:nth-of-type(2n) {
+  background-color: black;
+  color: aqua;
 }
